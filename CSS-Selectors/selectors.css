@@ -1,0 +1,56 @@
+/* 
+Without adding any other attributes to the input fields in the footer, write a CSS selector that makes any text input field have a height of 25px. */
+header {
+    border: goldenrod solid 1px;
+}
+
+header > ul {
+    list-style: none;
+}
+
+header > ul > li {
+    display: inline;
+    margin: 20px;
+}
+
+.disabled {
+    color: gray;
+}
+
+a .disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+.grandparent > h4 {
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.promo {
+    font-weight: bold;
+    color: gold;
+}
+
+input {
+    color: red;
+    line-height: 25px;
+}
+.parent > div > div {
+    color: red;
+}
+
+.parent > div > div + h4 {
+    background-color: red;
+}
+
+.parent > div > div ~ div {
+    color: blue;
+}
+
+.parent > div > div ~ div + h4 {
+    background-color: blue;
+}

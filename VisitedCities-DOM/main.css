@@ -1,0 +1,103 @@
+/* Style each card with a different background color, colored by continent (North America = green, Asia = purple, Europe = orange, Australia = brown) */
+/* .bordered {
+    border: 2px solid hotpink;
+    padding: 20px;
+} */
+
+
+.bordered {
+    border: 2px solid black;
+    margin: 20px;
+    padding: 10px;
+}
+
+.citiesRow {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+img {
+    width: 280px;
+    height: 300px;
+}
+
+li {
+    list-style: none;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    text-align: center;
+}
+
+.northAmerica {
+    background-color: green;
+}
+
+.europe {
+    background-color: orange;
+}
+
+.australia {
+    background-color: brown;
+}
+
+.asia {
+    background-color: purple;
+}
+
+.navbar {
+    border-bottom: 1px solid black;
+    padding: 20px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo {
+    display: inline;
+    margin-right: 20px;
+    font-family: 'Rock Salt', cursive;
+}
+
+input {
+    border: 1px solid black;
+    line-height: 30px;
+    margin: 10px;
+}
+
+button {
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.radio {
+    margin-left: 30px;
+}
+
+#search {
+    margin-left: 30px;
+}
+
+.asiaOrder {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}

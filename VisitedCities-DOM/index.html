@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Rock+Salt" rel="stylesheet">
+    <title>Visited Cities DOM</title>
+</head>
+<body>
+    <nav>
+        <div class="navbar">
+            <h1 id="logo">Hayley's Visited Cities</h1>
+            <div id="search">
+            <button id="button2016">2016</button>
+            <button id="button2017">2017</button>
+            <button id="buttonAll">Show All</button>
+            </div>
+            <div class="radio">
+                <form action="">
+                    <input id="australia" type="radio" name="continents" value="australia"> Australia<br>
+                    <input id="asia" type="radio" name="continents" value="asia"> Asia<br>
+                    <input id="europe" type="radio" name="continents" value="europe"> Europe<br>
+                    <input id="northAmerica" type="radio" name="continents" value="northAmerica"> North America
+                </form>
+            </div>
+        </div>
+    </nav>
+    <article id="visitedCities"></article>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="database.js"></script>
+    <script src="maker.js"></script>
+</body>
+</html>
